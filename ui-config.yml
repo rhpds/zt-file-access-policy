@@ -3,19 +3,19 @@ antora:
   name: modules
   dir: www
   modules:
-    - name: "01-install"
+    - name: 01-install
       label: "Install"
       solveButton: true
-    - name: "02-verify"
+    - name: 02-verify
       label: "Verify"
       solveButton: true
-    - name: "03-update"
+    - name: 03-update
       label: "Update"
       solveButton: true
-    - name: "04-explore"
+    - name: 04-explore
       label: "Explore"
       solveButton: true
-    - name: "05-integritycontrols"
+    - name: 05-integritycontrols
       label: "Integritycontrols"
       solveButton: true
 
