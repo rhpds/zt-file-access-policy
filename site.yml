@@ -1,15 +1,8 @@
 ---
 site:
   title: "File Access Policy"
-  url: https://redhat-scholars.github.io/course-template
+  url: https://demo.redhat.com/course-template
   start_page: modules::01-install.adoc
-
-asciidoc:
-  attributes:
-    lab_name: "File Access Policy"
-    release-version: master
-    page-pagination: true
-    my_var: "foo - this is an asciidoc attribute from `site.yml`"
 
 content:
   sources:

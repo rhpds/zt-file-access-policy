@@ -1,3 +1,9 @@
 ---
 name: modules
 version: master
+
+asciidoc:
+  attributes:
+    lab_name: "File Access Policy"
+    release-version: master
+    page-pagination: true
