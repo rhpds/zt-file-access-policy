@@ -1,7 +1,7 @@
 ---
 site:
   title: "File Access Policy"
-  url: https://github.com/rhpds/showroom_template_zero
+  url: https://redhat-scholars.github.io/course-template
   start_page: modules::01-install.adoc
 
 asciidoc:
