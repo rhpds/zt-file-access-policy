@@ -1,0 +1,28 @@
+---
+site:
+  title: "File Access Policy"
+  url: https://github.com/rhpds/showroom_template_zero
+  start_page: modules::01-install.adoc
+
+asciidoc:
+  attributes:
+    lab_name: "File Access Policy"
+    release-version: master
+    page-pagination: true
+    my_var: "foo - this is an asciidoc attribute from `site.yml`"
+
+content:
+  sources:
+    - url: ./
+      start_path: content
+
+ui:
+  bundle:
+    url: https://github.com/rhpds/nookbag-bundle/releases/download/v0.0.2/bundle.zip
+    snapshot: true
+
+output:
+  dir: ./www/www
+
+runtime:
+  cache_dir: ./.cache/antora
