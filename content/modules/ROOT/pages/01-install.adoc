@@ -11,6 +11,15 @@ system.
 sudo systemctl status fapolicyd
 ----
 
+The service exists but is disabled by default on installation.
+
+[source,text]
+----
+○ fapolicyd.service - File Access Policy Daemon
+     Loaded: loaded (/usr/lib/systemd/system/fapolicyd.service; disabled; preset: disabled)
+     Active: inactive (dead)
+----
+
 Next, inspect the fapolicyd configuration that has been created.
 
 [source,bash,run]

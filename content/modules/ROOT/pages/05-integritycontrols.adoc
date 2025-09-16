@@ -35,6 +35,10 @@ We can now verify whether file integrity checking is performed:
 ----
 /bin/more "mooooooo"
 ----
+[source,text]
+----
+-bash: /bin/more: Operation not permitted
+----
 
 Success! We’ve now mitigated the risk of an attacker hijacking a trusted
 binary on the system, by configuring fapolicyd integrity controls.
