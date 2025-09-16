@@ -35,6 +35,15 @@ We can now verify whether file integrity checking is performed:
 ----
 /bin/more "mooooooo"
 ----
+[source,text]
+----
+-bash: /bin/more: Operation not permitted
+----
 
 Success! We’ve now mitigated the risk of an attacker hijacking a trusted
 binary on the system, by configuring fapolicyd integrity controls.
+
+You've now explored how to manage and configure the File Access Policy Daemon (fapolicyd) 
+to control the execution of applications. Hopefully you can see how this
+can be of use in your environment. To explore other adminstrative tools, please
+check out another of our labs.
