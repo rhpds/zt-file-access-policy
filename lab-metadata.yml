@@ -1,0 +1,50 @@
+# lab-metadata.yml
+# Single Point of Truth for Lab Information
+
+lab:
+  name: "File Access Policy"
+  shortname: "zt-file-access-policy"
+  maintainer: "Nate Lager (nlager@redhat.com)" 
+  
+  description:
+    summary: "Learn how to configure and use file access policy in Red Hat Enterprise Linux"
+    goal: "After completing this scenario, users will be able to deploy and manage application control on Red Hat Enterprise Linux systems."
+    concepts:
+     - "File Access Policy Daemon (fapolicyd)"
+     - 
+    use_case: "In this lab, you are going to configure application control for Red Hat Enterprise Linux systems. Application control is a security approach designed to protect against unauthorized process execution on systems. When implemented correctly, application control helps mitigate the risk of malicious code (malware), such as ransomware, executing on a system."
+    time_to_complete: "10"
+    
+  git_ref:
+    production: "prod"
+    development: "dev"
+
+# DYNAMIC EXTRACTION SOURCES:
+# ===========================
+#
+# GENERATED FILES:
+# description.adoc: Generated from lab.description (goal, concepts, use_case)
+# README.md: Generated from configuration extraction (maintainer, summary, instances, networks, firewall)
+# dev.yaml: Generated using git_ref.development (defaults to "main" if not specified)
+# prod.yaml: Generated using git_ref.production (required)
+#
+# Example usage:
+# lab:
+#   name: "Red Hat OpenShift Networking Basics"      # Full name of the lab that appears in the catalog
+#   shortname: "zt-ocp-networking-basics"            # Shortname for the lab (used for catalog entry)
+#   maintainer: "Wilson Harris (wharris@redhat.com)" # Lab maintainer / developer
+#
+#   description:
+#     summary: "Learn the fundamentals of networking in Red Hat OpenShift" # Short summary of the lab
+#     goal: "Understand OpenShift networking concepts and configuration"   # Longer description of the lab's goal
+#     concepts:                                                            # List of concepts covered in the lab
+#       - "OpenShift Services"
+#       - "Routes and Ingress"
+#       - "Network Policies"
+#     use_case: "Configure networking for containerized applications"      # Use case for the lab
+#     time_to_complete: "10"                                               # time in minutes to complete the lab
+#   
+#   git_ref:
+#     production: "prod"    # Production git reference (required)
+#     # development: "dev"  # Optional: defaults to "main" if not specified
+#
