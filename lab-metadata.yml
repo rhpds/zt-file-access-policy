@@ -10,10 +10,12 @@ lab:
     summary: "Learn how to configure and use file access policy in Red Hat Enterprise Linux"
     goal: "After completing this scenario, users will be able to deploy and manage application control on Red Hat Enterprise Linux systems."
     concepts:
-     - "File Access Policy Daemon (fapolicyd)"
-     - 
+     - "Install File Access Policy Daemon (fapolicyd)"
+     - "Verify fapolicyd configuration and block unauthorized applications"
+     - "Create a file-based trust database to allow trusted applications"
+     - "Configure integrity checking for fapolicyd"
     use_case: "In this lab, you are going to configure application control for Red Hat Enterprise Linux systems. Application control is a security approach designed to protect against unauthorized process execution on systems. When implemented correctly, application control helps mitigate the risk of malicious code (malware), such as ransomware, executing on a system."
-    time_to_complete: "10"
+    time_to_complete: "30"
     
   git_ref:
     production: "prod"
